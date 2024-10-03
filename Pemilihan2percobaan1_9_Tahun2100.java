@@ -1,7 +1,7 @@
 import java.util.Scanner;
+public class Pemilihan2percobaan1_9_Tahun2100 {
 
-public class Pemilihan2Percobaan1_9{
-     public static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sembilan = new Scanner(System.in);
 
         System.out.print("Masukkan Tahun: ");
@@ -10,10 +10,13 @@ public class Pemilihan2Percobaan1_9{
         if (( tahun % 4) == 0) {
             if((tahun % 100)!= 0 )
             System.out.println("Tahun Kabisat");
-        }else
-    
-            System.out.println("Bukan Tahun Kabisat");
+            else
+            System.out.println("bukan Tahun Kabisat");
+        }else 
+            System.out.println(" Bukan Tahun Kabisat");
     }
-}
-
+        
     
+            
+    }
+
