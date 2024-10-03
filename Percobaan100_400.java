@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PemilihanPercobaan100400 {
+public class Percobaan100_400 {
     public static void main(String[] args) {
         Scanner sembilan = new Scanner(System.in);
 
@@ -22,5 +22,3 @@ public class PemilihanPercobaan100400 {
     System.out.println(" Bukan Tahun Kabisat");
         }
 }
-
-
